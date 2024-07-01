@@ -1,0 +1,69 @@
+body {
+    background-color: #333; /* Set background color for the rest of the page */
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+/* Custom styles for form elements */
+.form-control-lg {
+    font-size: 14px; /* Increase font size */
+}
+
+.form-control:focus {
+    background-color: #222;
+    border-color: lime; /* Lime border color on focus */
+    box-shadow: 0 0 0 1px lime; /* Lime box shadow on focus */
+}
+
+/* Custom styles for labels */
+label {
+    color: lime; /* Lime color for labels */
+    font-size: 18px; /* Larger font size for labels */
+    text-align: left; /* Left-align labels */
+    display: block; /* Ensure labels take full width */
+    margin-bottom: 1rem; /* Add more space below each label */
+}
+
+/* Additional custom styles */
+.form-group {
+    margin-bottom: 15px; /* Increase space between form groups */
+}
+
+.textarea-custom {
+    background-color: #222; /* Set background color for textarea */
+    color: #fff; /* Set text color for textarea */
+    border-color: #222; /* Set border color for textarea */
+    padding: 10px; /* Add padding to textarea */
+    width: 100%; /* Set width to 100% */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+
+.btn-primary {
+    background-color: #222;
+    border: #222;
+    color: lime;
+    margin: 15px 15px 30px;
+    height: 35px;
+}
+
+.btn-primary:hover {
+    background-color: lime;
+    color: #222;
+}
+
+.btn-delete {
+    background-color: red;
+    border: red;
+    color: white;
+    margin: 15px 15px 30px;
+    height: 35px;
+
+
+}
+
+.btn-delete:hover {
+    background-color: white;
+    color: red;
+}

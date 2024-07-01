@@ -1,0 +1,68 @@
+body {
+    background-color: #333; /* Set background color for the rest of the page */
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.container{
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.text-decoration{
+    text-decoration: none;
+}
+
+.card {
+    margin: 15px 15px 30px;
+    float: none;
+    /*margin-bottom: 50px;*/
+    /*margin-right: 25px;*/
+    background-color: #222;
+    height: 150px;
+}
+
+.card:hover{
+    box-shadow: 0 0 5px lime;
+
+}
+
+
+.card-body{
+    margin: 0;
+    padding: 5px;
+}
+
+.card-title{
+    background-color: #333;
+    font-size: 16px;
+    color: lime;
+    align-content: center;
+    height: 50px;
+    padding: 0;
+}
+
+.card-text{
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+
+}
+
+.col-sm-3, .row{
+    align-content: center;
+}
+
+.btn {
+    background-color: #222;
+    border: #222;
+    color: lime;
+    margin: 15px 15px 30px;
+}
+
+.btn:hover{
+    background-color: lime;
+    color: #222;
+}
+

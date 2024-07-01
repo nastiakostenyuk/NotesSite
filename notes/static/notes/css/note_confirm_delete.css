@@ -1,0 +1,68 @@
+.container {
+    border: 2px solid #222; /* Додати чорну рамку */
+    width: 550px;
+    height: 200px;
+    background-color: #222;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; /* Розміщувати дочірні елементи вертикально */
+    justify-content: center; /* Центрувати елементи по вертикалі */
+    align-items: center; /* Центрувати елементи по горизонталі */
+    text-align: center; /* Центрувати текст всередині контейнера */
+}
+
+.container:hover{
+    border-color: lime;}
+
+.page-header h1 {
+    color: lime; /* Text color for the heading */
+    font-family: 'Brush Script MT', cursive; /* Font family remains the same */
+    font-size: 26px; /* Adjust font size as needed */
+    font-weight: 400; /* Font weight for the heading */
+    margin-bottom: 10px;
+}
+
+
+.page-header h3 {
+    color: white; /* Text color for the heading */
+    font-family: 'Brush Script MT', cursive; /* Font family remains the same */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 400; /* Font weight for the heading */
+    margin-bottom: 10px;
+}
+
+.button-group {
+    display: flex; /* Enable flexbox layout for the button group */
+    justify-content: center; /* Center buttons horizontally */
+}
+
+.btn-choice {
+    margin: 0 10px; /* Add margin between buttons */
+}
+
+.btn-choice {
+    background-color: #333;
+    color: lime;
+    margin: 15px 15px 30px;
+    height: 35px;
+    border: 2px solid #333; /* Чорна рамка за замовчуванням */
+    outline: none; /* Відключаємо стандартне outline браузера */
+
+    /* Додаємо box-shadow, який буде використовуватися для візуальної рамки */
+    box-shadow: 0 0 0 2px #333; /* 2px черна рамка */
+}
+
+.btn-choice:hover {
+    background-color: lime;
+    border-color: lime; /* Зелена рамка при наведенні */
+    color: #333;
+    box-shadow: 0 0 0 2px lime; /* Зелена рамка при наведенні */
+}
+
+.btn-choice:active {
+    border-color: lime; /* Зелена рамка при натисканні */
+    box-shadow: 0 0 0 2px lime; /* Зелена рамка при натисканні */
+}

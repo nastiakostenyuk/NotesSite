@@ -1,0 +1,71 @@
+body {
+    background-color: #333; /* Set background color for the rest of the page */
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color: #222;
+    color: #0f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 30px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+}
+
+.logout-button {
+    background-color: transparent; /* Make background transparent */
+    border: none; /* Remove border */
+    color: #0f0; /* Text color remains the same */
+    /*text-shadow: 0 0 2px white;*/
+    font-family: 'Brush Script MT', cursive; /* Font family remains the same */
+    font-size: 20px; /* Font size remains the same */
+    font-weight: 600; /* Font weight remains the same */
+    letter-spacing: 3px; /* Letter spacing remains the same */
+    text-transform: uppercase; /* Text transformation remains the same */
+    padding: 5px 10px; /* Keep padding for button feel */
+    cursor: pointer; /* Maintain cursor change on hover */
+    outline: none; /* Remove focus outline */
+}
+
+
+.page-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-header h1 {
+    color: white; /* Text color for the heading */
+    font-family: 'Brush Script MT', cursive; /* Font family remains the same */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: 400; /* Font weight for the heading */
+    margin-bottom: 10px;
+}
+
+
+.page-header h3 {
+    color: white; /* Text color for the heading */
+    font-family: 'Brush Script MT', cursive; /* Font family remains the same */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 400; /* Font weight for the heading */
+    margin-bottom: 10px;
+}
+
+
+.btn-primary {
+    background-color: #222;
+    border: #222;
+    color: lime;
+    margin: 15px 15px 30px;
+    height: 35px;
+}
+
+.btn-primary:hover {
+    background-color: lime;
+    color: #222;
+}

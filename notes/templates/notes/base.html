@@ -1,0 +1,12 @@
+{% load static %}
+{% block topnav %}
+    <link rel="stylesheet" href="{% static 'notes/css/base_style.css' %}">
+
+    <div class="topnav">
+        <img src="{% static 'notes/images/logo.jpg' %}" alt="Logo" class="logo">
+        <form method="post" action="{% url 'accounts:logout' %}">
+            {% csrf_token %}
+            <button class="logout-button" type="submit">LOGOUT</button>
+        </form>
+    </div>
+{% endblock %}
