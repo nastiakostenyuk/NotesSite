@@ -29,9 +29,9 @@ environ.Env.read_env(BASE_DIR/'.env')
 SECRET_KEY = env("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env("SECRET_KEY", default=False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = env("ALLOWED_HOSTS", default="").split(",") if env("ALLOWED_HOSTS", default="") else []
 
 
 # Application definition
